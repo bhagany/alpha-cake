@@ -108,7 +108,12 @@
     (run! #(print-output %) results)
     (count results)))
 
-(def test-start
+(def sample1
+  "G??
+   ?C?
+   ??J")
+
+(def sample2
   "CODE
    ????
    ?JAM")
