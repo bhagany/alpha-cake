@@ -18,3 +18,36 @@ what it's attempting to do. Normally, we cover this with comments and tests, but
 goals is a great thing to have in my toolbox.
 
 Enjoy!
+
+Just to give you a taste, here's the first example from the problem; there are six solutions.
+
+```clj
+boot.user> (alpha-cake "G??
+                        ?C?
+                        ??J")
+GGG
+CCJ
+CCJ
+
+GGG
+CCC
+JJJ
+
+GGJ
+CCJ
+CCJ
+
+GCJ
+GCJ
+GCJ
+
+GCC
+GCC
+GJJ
+
+GCC
+GCC
+JJJ
+
+6
+```
